@@ -80,9 +80,6 @@ event_system = DomainEventSystem(celery_app=app)
 
 ## Performance
 
-
-**Performance**
-
 - **Lookup:** 40-60ns (8x faster than Django Signals)
 - **Dispatch (Cython):** 90-120ns per handler (typically 2-10x faster than pure Python)
 - **Bulk dispatch (Cython):** up to 10x faster for large batches
