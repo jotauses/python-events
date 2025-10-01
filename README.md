@@ -1,6 +1,3 @@
-domain_events.publish(user_event)
-
-
 # Domain Events ⚡
 
 Ultra-fast events system for Python, optimized for high performance and production-ready.
