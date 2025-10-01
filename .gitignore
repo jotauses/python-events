@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+
+# Test & coverage
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Django
+*.sqlite3
+*.log
+
+# IDEs
+.idea/
+*.swp
+*.swo
+
+# Mac/Linux/Windows
+.DS_Store
+Thumbs.db
+
+# Requirements
+requirements/*.lock
+
+# Misc
+*.bak
+*.tmp
